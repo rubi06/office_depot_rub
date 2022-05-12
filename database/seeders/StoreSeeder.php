@@ -15,16 +15,16 @@ class StoreSeeder extends Seeder
 	 */
 	public function run()
 	{
-		Store::truncate();
+		//Store::truncate();
 
-		$csvFile = fopen(base_path("storage/app/public/prices.csv"), "r");
+		$csvFile = fopen(base_path("storage/app/public/tiendas.csv"), "r");
 
 		$firstline = true;
 		while (($data = fgetcsv($csvFile, 2000, ",")) !== FALSE) {
 			if (!$firstline) {
 				Store::create([
-					"product" => $data['0'],
-					"price" => $data['1']
+					"name" => $data['0'],
+					"description" => $data['1']
 				]);
 			}
 			$firstline = false;

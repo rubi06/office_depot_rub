@@ -15,9 +15,9 @@ class PriceSeeder extends Seeder
 	 */
 	public function run()
 	{
-		Price::truncate();
+		//Price::truncate();
 
-		$csvFile = fopen(base_path("storage/app/public/prices.csv"), "r");
+		$csvFile = fopen(base_path("storage/app/public/precios.csv"), "r");
 
 		$firstline = true;
 		while (($data = fgetcsv($csvFile, 2000, ",")) !== FALSE) {

@@ -102,5 +102,20 @@
 			@endforeach
 		</div>
 	</div>
-	<script></script>
+	<script>
+		$(document).ready(funtion(){
+
+			function cambio(){
+				if($(#contenido1).is(":hidden")){
+					$('contenido1').show();
+					$('contenido2').hide();
+				}else{
+					$('contenido1').hide();
+					$('contenido2').show();
+
+				}
+			}
+		});
+
+	</script>
 @endsection
