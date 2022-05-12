@@ -1,23 +1,50 @@
 @extends('backend.layout')
 
 @section('content')
-@forelse ($prices as $item)
-    $item->name  : $item->price
-@empty
-no hay precio
-    
-@endforelse
 
-<form action="{{ route('price.store') }}" method="post">
+<table class="table table-stripped">
+    <thead>
+        <tr>
+            <th>
+                producto
+            </th>
+            <th>
+                precio
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @forelse ($prices as $item)
+        <tr>
+            <td>
+                {{ $item->product }}
+            </td>
+            <td>
+                {{ $item->price }}
+            </td>
+        </tr>
+    
+        @empty
+        no hay precio
+    
+        @endforelse 
+
+    </tbody>
+</table>
+
+
+<form action="{{ route('price.index') }}" method="post">
     @csrf {{--genera token--}}
 
-    <label for="">titulo</label>
-    <input type="text" name="product">
+    <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">titulo</label>
+        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="name" name="product">
+    </div>
 
-    <label for="">precio1</label>
-    <input type="text" name="price">
-
-
+    <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">precio</label>
+        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="name" name="price">
+    </div>
     <button type="submit">Enviar</button>
 </form>
     

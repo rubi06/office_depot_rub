@@ -3,8 +3,10 @@
 namespace App\Http\Controllers;
 
 use App\Models\Price;
-use App\Http\Requests\StorePriceRequest;
-use App\Http\Requests\UpdatePriceRequest;
+use App\Models\Section;
+//use App\Http\Requests\StorePriceRequest;
+//use App\Http\Requests\UpdatePriceRequest;
+use Illuminate\Http\Request;
 
 class PriceController extends Controller
 {
@@ -34,12 +36,13 @@ class PriceController extends Controller
      * @param  \App\Http\Requests\StorePriceRequest  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(StorePriceRequest $request)
+    public function store(Request $request)
     {
+        //dd('hola');
         $price = new Price();//new model
         $price->fill($request->all());//busda los datos
         $price->save();
-        return redirect('price.index');
+        return redirect()->route('price.index');
 
 
     }
@@ -52,7 +55,7 @@ class PriceController extends Controller
      */
     public function show(Price $price)
     {
-        //
+       //
     }
 
     /**
@@ -73,7 +76,7 @@ class PriceController extends Controller
      * @param  \App\Models\Price  $price
      * @return \Illuminate\Http\Response
      */
-    public function update(UpdatePriceRequest $request, Price $price)
+    public function update(Request $request, Price $price)
     {
         //
     }

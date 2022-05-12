@@ -1,4 +1,6 @@
 <?php
+
+use App\Http\Controllers\OfficeDepotController;
 use App\Http\Controllers\SectionController;
 use App\Http\Controllers\PriceController;
 use App\Http\Controllers\StoreController;
@@ -16,9 +18,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('generate', [OfficeDepotController::class, 'generator']);
 
 Route::resource('price', PriceController::class);
 
