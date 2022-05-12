@@ -7,6 +7,11 @@ use Illuminate\Database\Eloquent\Model;
 
 class Price extends Model
 {
-    use HasFactory;
-    protected $fillable = ['product', 'price'];
+	use HasFactory;
+	protected $fillable = ['product', 'price'];
+
+	public function sections()
+	{
+		return $this->belongsToMany(Section::class);
+	}
 }

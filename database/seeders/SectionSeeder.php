@@ -17,7 +17,7 @@ class SectionSeeder extends Seeder
 	{
 		//Section::truncate();
 
-		$csvFile = fopen(base_path("storage/app/public/secciones.csv"), "r");
+		$csvFile = fopen(base_path("storage/secciones.csv"), "r");
 
 		$firstline = true;
 		while (($data = fgetcsv($csvFile, 2000, ",")) !== FALSE) {

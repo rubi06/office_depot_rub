@@ -17,7 +17,7 @@ class StoreSeeder extends Seeder
 	{
 		//Store::truncate();
 
-		$csvFile = fopen(base_path("storage/app/public/tiendas.csv"), "r");
+		$csvFile = fopen(base_path("storage/tiendas.csv"), "r");
 
 		$firstline = true;
 		while (($data = fgetcsv($csvFile, 2000, ",")) !== FALSE) {
