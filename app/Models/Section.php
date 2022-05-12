@@ -10,9 +10,9 @@ class Section extends Model
 	use HasFactory;
 	protected $fillable = ['name', 'description'];
 
-	public function prices()
+	public function products()
 	{
-		return $this->belongsToMany(Price::class);
+		return $this->belongsToMany(Product::class);
 	}
 
 	public function stores()

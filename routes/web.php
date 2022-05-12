@@ -2,7 +2,7 @@
 
 use App\Http\Controllers\OfficeDepotController;
 use App\Http\Controllers\SectionController;
-use App\Http\Controllers\PriceController;
+use App\Http\Controllers\ProductController;
 use App\Http\Controllers\StoreController;
 
 use Illuminate\Support\Facades\Route;
@@ -20,7 +20,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('generate', [OfficeDepotController::class, 'generator']);
 
-Route::resource('price', PriceController::class);
+Route::resource('product', ProductController::class);
 
 Route::resource('section', SectionController::class);
 

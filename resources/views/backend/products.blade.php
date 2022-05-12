@@ -10,21 +10,21 @@
 		</tr>
 	</thead>
 	<tbody>
-		@forelse ($prices as $item)
+		@forelse ($products as $item)
 		<tr>
 			<td>{{ $item->product }}</td>
 			<td>{{ $item->price }}</td>
 		</tr>
 		@empty
 		<tr>
-			<td colspan="2">no hay precioss</td>
+			<td colspan="2">no hay productos</td>
 		</tr>
 		@endforelse
 	</tbody>
 </table>
 
 
-<form action="{{ route('price.index') }}" method="post">
+<form action="{{ route('product.index') }}" method="post">
 	@csrf {{--genera token--}}
 
 	<div class="mb-3">

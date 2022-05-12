@@ -2,11 +2,11 @@
 
 namespace Database\Seeders;
 
-use App\Models\Price;
+use App\Models\Product;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 
-class PriceSeeder extends Seeder
+class ProductSeeder extends Seeder
 {
 	/**
 	 * Run the database seeds.
@@ -15,14 +15,14 @@ class PriceSeeder extends Seeder
 	 */
 	public function run()
 	{
-		//Price::truncate();
+		//Product::truncate();
 
-		$csvFile = fopen(base_path("storage/precios.csv"), "r");
+		$csvFile = fopen(base_path("storage/productos.csv"), "r");
 
 		$firstline = true;
 		while (($data = fgetcsv($csvFile, 2000, ",")) !== FALSE) {
 			if (!$firstline) {
-				Price::create([
+				Product::create([
 					"product" => $data['0'],
 					"price" => $data['1']
 				]);

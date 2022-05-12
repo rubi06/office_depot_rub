@@ -2,13 +2,13 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Price;
+use App\Models\Product;
 use App\Models\Section;
 //use App\Http\Requests\StorePriceRequest;
 //use App\Http\Requests\UpdatePriceRequest;
 use Illuminate\Http\Request;
 
-class PriceController extends Controller
+class ProductController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -17,7 +17,7 @@ class PriceController extends Controller
      */
     public function index()
     {
-        return view("backend.prices", ['prices' => Price::all()]);
+        return view("backend.products", ['products' => Product::all()]);
     }
 
     /**
@@ -39,10 +39,10 @@ class PriceController extends Controller
     public function store(Request $request)
     {
         //dd('hola');
-        $price = new Price();//new model
-        $price->fill($request->all());//busda los datos
-        $price->save();
-        return redirect()->route('price.index');
+        $product = new Product();//new model
+        $product->fill($request->all());//busda los datos
+        $product->save();
+        return redirect()->route('product.index');
 
 
     }
@@ -50,10 +50,10 @@ class PriceController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Models\Price  $price
+     * @param  \App\Models\Product  $product
      * @return \Illuminate\Http\Response
      */
-    public function show(Price $price)
+    public function show(Product $product)
     {
        //
     }
@@ -61,10 +61,10 @@ class PriceController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Models\Price  $price
+     * @param  \App\Models\Prroduct  $product
      * @return \Illuminate\Http\Response
      */
-    public function edit(Price $price)
+    public function edit(Product $product)
     {
         //
     }
@@ -72,11 +72,11 @@ class PriceController extends Controller
     /**
      * Update the specified resource in storage.
      *
-     * @param  \App\Http\Requests\UpdatePriceRequest  $request
-     * @param  \App\Models\Price  $price
+     * @param  \App\Http\Requests\UpdateProductRequest  $request
+     * @param  \App\Models\Product  $product
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Price $price)
+    public function update(Request $request, Product $product)
     {
         //
     }
@@ -84,10 +84,10 @@ class PriceController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Models\Price  $price
+     * @param  \App\Models\Product  $product
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Price $price)
+    public function destroy(Product $product)
     {
         //
     }
