@@ -27,7 +27,7 @@ class ProductController extends Controller
      */
     public function create()
     {
-        //
+        return view("backend.Newproducts", ['Newproducts' => Product::all()]);
     }
 
     /**
