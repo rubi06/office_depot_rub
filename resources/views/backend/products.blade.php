@@ -2,27 +2,7 @@
 
 @section('content')
 
-<table class="table table-stripped">
-	<thead>
-		<tr>
-			<th>Producto</th>
-			<th>Precio</th>
-		</tr>
-	</thead>
-	<tbody>
-		@forelse ($products as $item)
-		<tr>
-			<td>{{ $item->product }}</td>
-			<td>{{ $item->price }}</td>
-		</tr>
-		@empty
-		<tr>
-			<td colspan="2">no hay productos</td>
-		</tr>
-		@endforelse
-	</tbody>
-</table>
-
+<h1>Crear nuevo producto</h1>
 
 <form action="{{ route('product.index') }}" method="post">
 	@csrf {{--genera token--}}

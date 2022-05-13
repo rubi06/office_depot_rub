@@ -1,70 +1,66 @@
 ﻿name,descripcion
-sect1,promociones
-sect2,impresiones
-sect3,mochilas
-sect4,tazas
-sect5,engargolados
-sect6,promociones
-sect7,impresiones
-sect8,mochilas
-sect9,tazas
-sect10,engargolados
-sect11,promociones
-sect12,impresiones
-sect13,mochilas
-sect14,tazas
-sect15,engargolados
-sect16,promociones
-sect17,impresiones
-sect18,mochilas
-sect19,tazas
-sect20,engargolados
-sect21,promociones
-sect22,impresiones
-sect23,mochilas
-sect24,tazas
-sect25,engargolados
-sect26,promociones
-sect27,impresiones
-sect28,mochilas
-sect29,tazas
-sect30,engargolados
-sect31,promociones
-sect32,impresiones
-sect33,mochilas
-sect34,tazas
-sect35,engargolados
-sect36,promociones
-sect37,impresiones
-sect38,mochilas
-sect39,tazas
-sect40,engargolados
-sect41,promociones
-sect42,impresiones
-sect43,mochilas
-sect44,tazas
-sect45,engargolados
-sect46,promociones
-sect47,impresiones
-sect48,mochilas
-sect49,tazas
-sect50,engargolados
-sect51,promociones
-sect52,impresiones
-sect53,mochilas
-sect54,tazas
-sect55,engargolados
-sect56,promociones
-sect57,impresiones
-sect58,mochilas
-sect59,tazas
-sect60,engargolados
-sect61,promociones
-sect62,impresiones
-sect63,mochilas
-sect64,tazas
-sect65,engargolados
-sect66,promociones
-sect67,impresiones
-sect68,mochilas
-sect69,tazas
+section1,impresiones b/n
+section1,impresiones b/n
+section1,impresiones b/n
+section1,impresiones b/n
+section1,impresiones b/n
+section2,impresiones ploteo
+section2,impresiones ploteo
+section2,impresiones ploteo
+section3,papel bond
+section4,papel opalina
+section5,papal couche
+seccion6,repuesto de tinta
+seccion7,sello negro18x50
+seccion8,sello negro10x60
+seccion9,sello negro27x70
+seccion10,sello negro 40x40
+seccion11,sello negro40x90
+seccion12,servicio paqueteria
+seccion12,servicio paqueteria
+seccion12,servicio paqueteria
+seccion12,servicio paqueteria
+seccion13,encuadernados
+seccion13,encuadernados
+seccion13,encuadernados
+seccion14,enmicados
+seccion14,enmicados
+seccion14,enmicados
+seccion15,fotos
+seccion15,fotos
+seccion15,fotos
+seccion15,fotos
+seccion16,renta
+seccion16,renta
+seccion16,renta
+seccion17,articulos promocionales
+seccion17,articulos promocionales
+seccion17,articulos promocionales
+seccion17,articulos promocionales
+seccion17,articulos promocionales
+seccion17,articulos promocionales
+seccion17,articulos promocionales
+seccion18,gafete
+seccion18,gafete
+seccion19,impresión transfer
+seccion19,impresión transfer
+seccion20,botones
+seccion20,botones
+seccion21,tazas
+seccion21,tazas
+seccion22,marco
+seccion22,marco
+seccion23,engargolado metalico
+seccion23,engargolado metalico
+seccion23,engargolado metalico
+seccion24,engargolados platico
+seccion24,engargolados platico
+seccion24,engargolados platico
+seccion25,engargolados pasta
+seccion25,engargolados pasta
+seccion25,engargolados pasta
+seccion25,engargolados pasta
+seccion25,engargolados pasta
+seccion25,engargolados pasta
+seccion26,arillo metalico
+seccion26,arillo plastico
