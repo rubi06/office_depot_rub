@@ -5,14 +5,14 @@
 <table class="table table-stripped">
 	<thead>
 		<tr>
-			<th colspan="2">Productos</th>
+			<th colspan="2">Secciones</th>
 		</tr>
 	</thead>
 	<tbody>
-		@foreach ($products as $product)
+		@foreach ($sections as $section)
 			<tr>
-				<td>{{ $product->name }}</td>
-				<td>{{ $product->price }}</td>
+				<td>{{ $section->name }}</td>
+				<td>{{ $section->description }}</td>
 			</tr>
 		@endforeach
 

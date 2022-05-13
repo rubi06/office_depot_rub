@@ -2,11 +2,12 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Store;
-use App\Http\Requests\StoreStoreRequest;
-use App\Http\Requests\UpdateStoreRequest;
+use App\Models\ProductSection;
+use App\Http\Requests\StoreProductSectionRequest;
+use App\Http\Requests\UpdateProductSectionRequest;
+use Database\Seeders\ProductSeeder;
 
-class StoreController extends Controller
+class ProductSectionController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -15,7 +16,8 @@ class StoreController extends Controller
      */
     public function index()
     {
-        return view("backend.stores", ['stores' => Store::all()]);
+       return view("backend.productsections", ['productsections' => ProductSection::all()]);
+    
     }
 
     /**
@@ -31,10 +33,10 @@ class StoreController extends Controller
     /**
      * Store a newly created resource in storage.
      *
-     * @param  \App\Http\Requests\StoreStoreRequest  $request
+     * @param  \App\Http\Requests\StoreProductSectionRequest  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(StoreStoreRequest $request)
+    public function store(StoreProductSectionRequest $request)
     {
         //
     }
@@ -42,10 +44,10 @@ class StoreController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Models\Store  $store
+     * @param  \App\Models\ProductSection  $productSection
      * @return \Illuminate\Http\Response
      */
-    public function show(Store $store)
+    public function show(ProductSection $productSection)
     {
         //
     }
@@ -53,10 +55,10 @@ class StoreController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Models\Store  $store
+     * @param  \App\Models\ProductSection  $productSection
      * @return \Illuminate\Http\Response
      */
-    public function edit(Store $store)
+    public function edit(ProductSection $productSection)
     {
         //
     }
@@ -64,11 +66,11 @@ class StoreController extends Controller
     /**
      * Update the specified resource in storage.
      *
-     * @param  \App\Http\Requests\UpdateStoreRequest  $request
-     * @param  \App\Models\Store  $store
+     * @param  \App\Http\Requests\UpdateProductSectionRequest  $request
+     * @param  \App\Models\ProductSection  $productSection
      * @return \Illuminate\Http\Response
      */
-    public function update(UpdateStoreRequest $request, Store $store)
+    public function update(UpdateProductSectionRequest $request, ProductSection $productSection)
     {
         //
     }
@@ -76,10 +78,10 @@ class StoreController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Models\Store  $store
+     * @param  \App\Models\ProductSection  $productSection
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Store $store)
+    public function destroy(ProductSection $productSection)
     {
         //
     }

@@ -1,66 +1,28 @@
 ﻿name,descripcion
-section1,impresiones b/n
-section1,impresiones b/n
-section1,impresiones b/n
-section1,impresiones b/n
-section1,impresiones b/n
-section2,impresiones ploteo
-section2,impresiones ploteo
-section2,impresiones ploteo
-section3,papel bond
-section4,papel opalina
-section5,papal couche
-seccion6,repuesto de tinta
-seccion7,sello negro18x50
-seccion8,sello negro10x60
-seccion9,sello negro27x70
-seccion10,sello negro 40x40
-seccion11,sello negro40x90
-seccion12,servicio paqueteria
-seccion12,servicio paqueteria
-seccion12,servicio paqueteria
-seccion12,servicio paqueteria
-seccion13,encuadernados
-seccion13,encuadernados
-seccion13,encuadernados
-seccion14,enmicados
-seccion14,enmicados
-seccion14,enmicados
-seccion15,fotos
-seccion15,fotos
-seccion15,fotos
-seccion15,fotos
-seccion16,renta
-seccion16,renta
-seccion16,renta
-seccion17,articulos promocionales
-seccion17,articulos promocionales
-seccion17,articulos promocionales
-seccion17,articulos promocionales
-seccion17,articulos promocionales
-seccion17,articulos promocionales
-seccion17,articulos promocionales
-seccion18,gafete
-seccion18,gafete
-seccion19,impresión transfer
-seccion19,impresión transfer
-seccion20,botones
-seccion20,botones
-seccion21,tazas
-seccion21,tazas
-seccion22,marco
-seccion22,marco
-seccion23,engargolado metalico
-seccion23,engargolado metalico
-seccion23,engargolado metalico
-seccion24,engargolados platico
-seccion24,engargolados platico
-seccion24,engargolados platico
-seccion25,engargolados pasta
-seccion25,engargolados pasta
-seccion25,engargolados pasta
-seccion25,engargolados pasta
-seccion25,engargolados pasta
-seccion25,engargolados pasta
-seccion26,arillo metalico
-seccion26,arillo plastico
+impresiones b/n,desc1
+impresiones ploteo,desc2
+papel bond,desc3
+papel opalina,desc4
+papal couche,desc5
+repuesto de tinta,desc6
+sello negro18x50,desc7
+sello negro10x60,desc8
+sello negro27x70,desc9
+sello negro 40x40,desc10
+sello negro40x90,desc11
+servicio paqueteria,desc12
+encuadernados,desc13
+enmicados,desc14
+fotos,desc15
+renta,desc16
+articulos promocionales,desc17
+gafete,desc18
+impresión transfer,desc19
+botones,desc20
+tazas,desc21
+marco,desc22
+engargolado metalico,desc23
+engargolados platico,desc24
+engargolados pasta,desc25
+arillo metalico,desc26
+arillo plastico,desc27

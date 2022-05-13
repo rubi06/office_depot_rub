@@ -15,7 +15,7 @@ class SectionController extends Controller
      */
     public function index()
     {
-        //
+        return view("backend.sections", ['sections' => Section::all()]);
     }
 
     /**

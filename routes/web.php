@@ -5,7 +5,7 @@ use App\Http\Controllers\OfficeDepotController;
 use App\Http\Controllers\SectionController;
 use App\Http\Controllers\ProductController;
 use App\Http\Controllers\StoreController;
-
+use App\Models\ProductSection;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -19,6 +19,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 Route::get('dashboard', [DashboardController::class, 'index']);
+
+Route::get('productsection', [ProductSection::class, 'index']);
 
 Route::get('generate', [OfficeDepotController::class, 'generator']);
 

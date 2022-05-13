@@ -22,7 +22,6 @@
 	<div class="container">
 		@yield('content')
 	</div>
-	<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt sed vel magni exercitationem facere amet nulla placeat animi cupiditate modi quos fugiat reprehenderit ad eum maxime hic illum, laborum obcaecati.</p>
 </body>
 
 </html>
