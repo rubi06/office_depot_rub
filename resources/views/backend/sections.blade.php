@@ -2,6 +2,8 @@
 
 @section('content')
 
+<a class="btn btn-primary" href="http://localhost/office_depot_rub/public/section/create" role="button">Nueva seccion</a>
+
 <table class="table table-stripped">
 	<thead>
 		<tr>

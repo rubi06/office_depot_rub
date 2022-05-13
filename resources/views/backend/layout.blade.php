@@ -36,7 +36,7 @@
 		</div>
 	  </nav>
 
-	  <a class="btn btn-primary" href="http://localhost/office_depot_rub/public/product/create" role="button">Nuevo producto</a>
+	  
 
 	<div class="container">
 		@yield('content')
