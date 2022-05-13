@@ -20,15 +20,7 @@ class DatabaseSeeder extends Seeder
 			SectionSeeder::class,
 			StoreSeeder::class,
 			LayoutSeeder::class,
-			//ProductSectionSeeder::class,
+			ProductSection::class,
 		]);
-
-		/*DB::table('product_section')->insert(['product_id' => 1,'section_id' => 1]);
-		DB::table('product_section')->insert(['product_id' => 2,'section_id' => 1]);
-		DB::table('product_section')->insert(['product_id' => 3,'section_id' => 1]);
-		DB::table('product_section')->insert(['product_id' => 4,'section_id' => 1]);
-		DB::table('product_section')->insert(['product_id' => 5,'section_id' => 1]);*/
-
-
 	}
 }

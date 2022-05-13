@@ -14,7 +14,7 @@ class OfficeDepotController extends Controller
 	{
 		$layout = Layout::find(1);
 
-		return view("frontend.sections", [
+		return view("frontend.layout01", [
 			'section01' => Section::find(1),
 			'section02' => Section::find(2),
 		]);
