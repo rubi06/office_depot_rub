@@ -23,7 +23,7 @@ class ProductSeeder extends Seeder
 		while (($data = fgetcsv($csvFile, 2000, ",")) !== FALSE) {
 			if (!$firstline) {
 				Product::create([
-					"product" => $data['0'],
+					"name" => $data['0'],
 					"price" => $data['1']
 				]);
 			}
