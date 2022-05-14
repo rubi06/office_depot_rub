@@ -2,6 +2,7 @@
     --blanco: #ffffff;
     --gris: #c3c3c3;
     --negro: #000000;
+    --rojo: #ff0000;
 }
 
 /*Globales*/
@@ -70,7 +71,7 @@ body {
     text-align: center;
 }
 
-/*contenido del bloque 1 office*/
+/*contenido del bloque 2 office*/
 #contenido2{
     background-image: url(../img/OFFDEP_02.png);
     position: relative;
@@ -142,3 +143,421 @@ body {
     text-align: center;
 }
 
+/*contenido del bloque 3 office*/
+#contenido3{
+    background-image: url(../img/OFFDEP_03.png);
+    position: relative;
+    z-index: 99;
+    width: 1080px;
+    height: 1080px;
+    font-size: 30px;
+}
+#contenido3 .seccion1{
+    place-items: center;
+    text-align: center;
+
+    display: flex;
+    position: absolute;
+    top:120px;
+    left: 480px;
+    width: 420px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#contenido3 .encabezados{
+    text-align: left;
+}
+
+#contenido3 .precio{
+    color: var(--rojo);
+}
+
+/*contenido del bloque 4 office*/
+#contenido4{
+    background-image: url(../img/OFFDEP_04.png);
+    position: relative;
+    z-index: 99;
+    width: 1080px;
+    height: 1080px;
+    font-size: 30px;
+}
+#contenido4 .seccion1{
+    place-items: center;
+    text-align: center;
+
+    display: flex;
+    position: absolute;
+    top:120px;
+    left: 480px;
+    width: 420px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#contenido4 .seccion2{
+    position: absolute;
+    top:425px;
+    left: 120px;
+    width: 320px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: blue;
+}
+#contenido4 .encabezados{
+    margin-top: 20px;
+    text-align: left;
+}
+#contenido4 .precio{
+    text-align: right;
+    color: var(--blanco);
+}
+
+/*contenido del bloque 5 office*/
+#contenido5{
+    background-image: url(../img/OFFDEP_05.png);
+    position: relative;
+    z-index: 99;
+    width: 1080px;
+    height: 1080px;
+    font-size: 30px;
+}
+#contenido5 .seccion1{
+    padding-top:160px;
+    padding-left: 10px;
+    width: 955px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#contenido5 .seccion2{
+    padding-top:233px;
+    padding-left: 10px;
+    width: 955px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#contenido5 .encabezados{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#contenido5 .fila{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#contenido5 .flotante1{
+    position: absolute;
+    left:60px;
+    top:155px;
+    color: var(--blanco);
+}
+#contenido5 .flotante2{
+    position: absolute;
+    left:60px;
+    top:675px;
+    color: var(--blanco);
+}
+#contenido5 .precio{
+    text-align: center;
+}
+
+/*contenido del bloque 6 office*/
+#contenido6{
+    background-image: url(../img/OFFDEP_06.png);
+    position: relative;
+    z-index: 99;
+    width: 1080px;
+    height: 1080px;
+    font-size: 30px;
+}
+#contenido6 .seccion1{
+    padding-top: 138px;
+    padding-left: 10px;
+    width: 955px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#contenido6 .seccion2{
+    padding-top: 120px ;
+    padding-left: 10px;
+    width: 955px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#contenido6 .seccion3{
+    padding-top: 96px ;
+    padding-left: 10px;
+    width: 955px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#contenido6 .encabezados{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#contenido6 .fila{
+    margin-top: 6px;
+    margin-bottom: 5px;
+}
+#contenido6 .flotante1{
+    position: absolute;
+    left:60px;
+    top:135px;
+    color: var(--blanco);
+}
+#contenido6 .flotante2{
+    position: absolute;
+    left:60px;
+    top:490px;
+    color: var(--blanco);
+}
+#contenido6 .precio{
+    text-align: center;
+}
+
+/*contenido del bloque 7 office*/
+#contenido7{
+    background-image: url(../img/OFFDEP_07.png);
+    position: relative;
+    z-index: 99;
+    width: 1080px;
+    height: 1080px;
+    font-size: 30px;
+}
+#contenido7 .seccion1{
+    padding-top:115px ;
+    padding-left: 10px;
+    width: 955px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#contenido7 .seccion2{
+    padding-top:36px ;
+    padding-left: 10px;
+    width: 600px;
+    margin-left: 417px;
+}
+#contenido7 .seccion3{
+    padding-top:35px ;
+    padding-left: 10px;
+    width: 955px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#contenido7 img{
+    position: absolute;
+    left:125px;
+    top:588px;
+    width: 20%;
+}
+#contenido7 .encabezados{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#contenido7 .fila{
+    margin-bottom: 10px;
+}
+#contenido7 .flotante1{
+    position: absolute;
+    left:60px;
+    top:115px;
+    color: var(--blanco);
+}
+#contenido7 .flotante2{
+    position: absolute;
+    left:410px;
+    top:620px;
+    color: var(--blanco);
+}
+#contenido7 .flotante3{
+    position: absolute;
+    left:30px;
+    top:850px;
+    color: var(--blanco);
+}
+#contenido7 .precio{
+    text-align: center;
+}
+
+/*contenido del bloque 8 office*/
+#contenido8{
+    background-image: url(../img/OFFDEP_08.png);
+    position: relative;
+    z-index: 99;
+    width: 1080px;
+    height: 1080px;
+    font-size: 30px;
+}
+#contenido8 .seccion1{
+    padding-top:225px ;
+    padding-left: 10px;
+    width: 735px;
+    margin-left: 63px;
+}
+#contenido8 .seccion2{
+    padding-top:220px ;
+    padding-left: 10px;
+    width: 675px;
+    margin-left: 345px;
+}
+#contenido8 .seccion3{
+    padding-top:180px ;
+    padding-left: 10px;
+    width: 935px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#contenido8 .seccion1 img{
+    position: absolute;
+    left:800px;
+    top:160px;
+    width: 25%;
+}
+#contenido8 .seccion2 img{
+    position: absolute;
+    left:60px;
+    top:460px;
+    width: 25%;
+}
+#contenido8 .fila{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#contenido8 .flotante1{
+    position: absolute;
+    left:60px;
+    top:175px;
+    color: var(--blanco);
+}
+#contenido8 .flotante2{
+    position: absolute;
+    left:365px;
+    top:470px;
+    color: var(--blanco);
+}
+#contenido8 .flotante3{
+    position: absolute;
+    left:85px;
+    top:800px;
+    color: var(--blanco);
+}
+#contenido8 .precio{
+    text-align: center;
+}
+
+/*contenido del bloque 9 office*/
+#contenido9{
+    background-image: url(../img/OFFDEP_09.png);
+    position: relative;
+    z-index: 99;
+    width: 1080px;
+    height: 1080px;
+    font-size: 30px;
+}
+#contenido9 .seccion1{
+    padding-top:212px;
+    padding-left: 10px;
+    width: 955px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#contenido9 .seccion2{
+    padding-top:245px ;
+    padding-left: 10px;
+    width: 955px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#contenido9 .seccion3{
+    padding-top:28px ;
+    padding-left: 10px;
+    width: 955px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#contenido9 .encabezados{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#contenido9 .encabezados3{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+#contenido9 .fila1{
+    margin-top: 39px;
+    margin-bottom: 1px;
+}
+#contenido9 .fila2{
+    margin-top: 29px;
+    margin-bottom: 1px;
+}
+#contenido9 .fila3{
+    margin-top: 20px;
+    margin-bottom: 1px;
+}
+#contenido9 .flotante1{
+    position: absolute;
+    left:60px;
+    top:212px;
+    color: var(--blanco);
+}
+#contenido9 .flotante2{
+    position: absolute;
+    left:60px;
+    top:677px;
+    color: var(--blanco);
+}
+#contenido9 .flotante3{
+    position: absolute;
+    left:60px;
+    top:580px;
+    color: var(--blanco);
+}
+#contenido9 .precio{
+    text-align: center;
+}
+
+/*contenido del bloque 10 office*/
+#contenido10{
+    background-image: url(../img/OFFDEP_10.png);
+    position: relative;
+    z-index: 99;
+    width: 1080px;
+    height: 1080px;
+    font-size: 30px;
+}
+#contenido10 .seccion1{
+    padding-top:222px;
+    padding-left: 10px;
+    width: 955px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#contenido10 .seccion2{
+    padding-top:90px;
+    padding-left: 10px;
+    width: 955px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#contenido10 .encabezados{
+    margin-top: 20px;
+    margin-bottom: 22px;
+}
+#contenido10 .fila{
+    margin-bottom: 15px;
+}
+#contenido10 .flotante1{
+    position: absolute;
+    left:60px;
+    top:219px;
+    color: var(--blanco);
+}
+#contenido10 .flotante2{
+    position: absolute;
+    left:60px;
+    top:690px;
+    color: var(--blanco);
+}
+#contenido10 .precio{
+    text-align: center;
+}
